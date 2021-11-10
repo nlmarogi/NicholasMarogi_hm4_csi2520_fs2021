@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/555be0560e.js" crossorigin="anonymous"></script>
+    <title>Nicholas Marogi's Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="forUse/icons8-edit-24.png"/>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <script src="../js/Untitled-1.js" defer></script> 
+</head>
+<body>
+    <h1>Nicholas Marogi - Blog Page</h1>
+    <header id="page header">
+        <nav>
+            <menu>
+                <a href="resume.html"><span>Resume</span></a>
+                <a href="funFact.html"><span>Fun Facts</span></a>
+                <a href="../index.html"><span>Home Page</span></a>
+                <a href="blog.html"><span>Blog Page</span></a>
+            </menu>
+        </nav>
+    </header>
+
+
+    <section id ="blog-show">
+        <h2>TV Show Clip</h2>
+        <p>
+            Title - Video Clip</br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0wz3fjmRr4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+    </section>
+    
+    <section id="blog-response">
+
+        <p>
+            The ending to Breaking bad is quite simply one of the best endnings to a show you will ever see. Some shows excel at the ambiguity of their endings. For 
+            instance at the end of The Sopranos we all know Tony's fate but the cartharthis of witnessing his murder is withheld. Other shows like The Wire end on notes 
+            that tell us the more things change the more they stay the same, while utimatley the game in Baltimore continues on. Breaking Bad goes in a different route. 
+            It gives us a definte ending, that is equal parts tragic and diserving. Walter White ultimaly ends his life in the one place he felt powerful and fulfiled. 
+            Surronded by his meth empire. All the destruction lays around. All his relationships broken or mended in that final episode. All that is left for Walter is to
+            die with the one thing he truley loved. The power of his empire. The Sopranos always asked the question was Tony a good guy? Breaking Bad starts with the same
+            question and ends with a difinitive no. Walter wasn't a good guy. He was a man who strived for power and respect. He was a man who would do anything to keep
+            and hold onto that power no matter the consiquences. His pence and his peace is to die alone, surronded with the fragments of his one true love around him, his meth empire.
+            This ending is one of the reasons Breaking Bad is considered the golden crown when it comes to presitge television of the 21st centuray. I'd love to hear from you!
+            Leave a comment below!
+        </p>
+    </section>
+
+
+<section id="buttons12">
+ <button onclick="addComment(); hideReply()">
+        Add comment
+</button>
+
+<button id="replybutton" onclick="addReplySection()">
+    Add Reply
+</button>
+</section>
+
+
+
+
+    
+<ul id="dynamic-list">
+
+</ul>
+<section id="reply">
+   <input type="text" id="candidate2"/>
+    <button id="button2" onclick="addItem2(); hideReplySection(); clearText2(); hideReply();">add reply</button>
+</section>
+
+
+
+
+<section id="comments">
+    <input type="text" id="candidate"/>
+    <button id="button1" onclick="addItem(); hideComment(); clearText(); addReply()">add comment</button>
+</section>
+
+
+
+<footer>
+    <hr>
+       <p>Contact Info </br>
+        nlmarogi@oakland.edu</p>
+ </footer>
+    
+
+</body>
+</html>
